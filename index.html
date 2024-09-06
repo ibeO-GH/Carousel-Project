@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive web and Carousel</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Header Section start-->
+    <header>
+      <nav class="navbar">
+        <div class="logo">9A</div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="https://vephlainstitute.com/">Home</a></li>
+          <li><a href="https://vephlainstitute.com/">About</a></li>
+          <li><a href="https://vephlainstitute.com/">Services</a></li>
+          <li><a href="https://vephlainstitute.com/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header Section stop-->
+
+    <!-- Hero Section start-->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome our JS Project</h1>
+        <p>Your journey to excellence begins here and forthwith.</p>
+        <a href="https://vephlainstitute.com/" class="cta-button">Learn More</a>
+      </div>
+    </section>
+    <!-- Hero Section stop-->
+
+    <!-- Carousel Section start-->
+    <section class="carousel-section">
+      <div class="carousel-text">
+        <h2>Our Works</h2>
+        <p>
+          Take a look at some of our recent projects. We take pride in our
+          quality work and attention to detail.
+        </p>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <img src="/assets/img/image1.jpg" alt="Image 1" />
+          <img src="/assets/img/image2.jpg" alt="Image 2" />
+          <img src="/assets/img/image3.jpg" alt="Image 3" />
+          <img src="/assets/img/image4.jpg" alt="Image 4" />
+          <img src="/assets/img/image5.jpg" alt="Image 5" />
+        </div>
+        <button class="carousel-btn prev" onclick="prevSlide()">
+          &#10094;
+        </button>
+        <button class="carousel-btn next" onclick="nextSlide()">
+          &#10095;
+        </button>
+      </div>
+    </section>
+    <!-- Carousel Section stop-->
+
+    <script src="/app.js"></script>
+  </body>
+</html>
