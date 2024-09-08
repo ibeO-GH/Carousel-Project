@@ -14,6 +14,8 @@ This page is a page with a Carousel section implemented.
 
 ## Screenshot of how it looks
 
+## GitHub Pages - https://ibeo-gh.github.io/Carousel-Project/
+
 <img src="/screenshots/screenshot1.png" alt="image" />
     <img src="/screenshots/screenshot3.png" alt="image" />
     <img src="/screenshots/screenshot4.png" alt="image" />
